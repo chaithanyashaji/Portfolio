@@ -26,7 +26,7 @@ const projects = [
     frontend: 'React, Tailwind CSS',
     backend: 'Node.js, Express.js, PostgreSQL',
     description: 'My personal portfolio website',
-    githubLink: 'https://github.com/yourusername/project-two'
+    githubLink: 'https://github.com/chaithanyashaji/Portfolio-full-stack-'
   },
   {
     img: note,
