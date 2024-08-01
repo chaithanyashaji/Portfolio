@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.b5302b3b.css",
+    "main.js": "/Portfolio/static/js/main.dc39dc20.js",
+    "static/media/iris.jpg": "/Portfolio/static/media/iris.f1176055323a0f8e4cba.jpg",
+    "static/media/portimg2.jpg": "/Portfolio/static/media/portimg2.bcc6ec63bfe3f32fcdbf.jpg",
+    "static/media/portfolioimg.jpg": "/Portfolio/static/media/portfolioimg.ed8af37ee5b9b3de0ed8.jpg",
+    "static/media/capital.png": "/Portfolio/static/media/capital.4ea53f5f756b15d6b306.png",
+    "static/media/site-bg.jpg": "/Portfolio/static/media/site-bg.54724d703024833ef9c6.jpg",
+    "static/media/notes.png": "/Portfolio/static/media/notes.1b00934ec4e199c1eabe.png",
+    "static/media/vittacare.png": "/Portfolio/static/media/vittacare.036b3c3deded39925358.png",
+    "static/media/traveltracker.png": "/Portfolio/static/media/traveltracker.9d9f72966c974d610996.png",
+    "static/media/uni.png": "/Portfolio/static/media/uni.7f257173df7f4cdb7672.png",
+    "static/media/port.jpg": "/Portfolio/static/media/port.25c481042b3e4e7a161b.jpg",
+    "static/media/simon_game.png": "/Portfolio/static/media/simon_game.6495c52e2522deb71962.png",
+    "index.html": "/Portfolio/index.html",
+    "main.b5302b3b.css.map": "/Portfolio/static/css/main.b5302b3b.css.map",
+    "main.dc39dc20.js.map": "/Portfolio/static/js/main.dc39dc20.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b5302b3b.css",
+    "static/js/main.dc39dc20.js"
+  ]
+}
