@@ -52,11 +52,12 @@ const Banner = () => {
               viewport={{ once: false, amount: 0.7 }} 
               className='flex max-w-max gap-x-6 items-center mb-8 mx-auto lg:mx-0'
             >
-              <button className='btn btn-lg'>
-                <a href='/resume.pdf' download>
+              <a href='https://drive.google.com/file/d/1l3whwSeq7X6iFfJ-XK6hNHKOcb7t7niA/view?usp=drivesdk' download>
+                 <button className='btn btn-lg'>
                   Resume
-                </a>
-              </button>
+                </button>
+              </a>
+
             </motion.div>
             <motion.div 
               variants={fadeIn('up', 0.7)} 
