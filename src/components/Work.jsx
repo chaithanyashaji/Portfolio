@@ -1,11 +1,13 @@
 import React from 'react';
 import { BsArrowUpRight } from 'react-icons/bs';
 import note from '../assets/notes.png';
+import secret from '../assets/secret.png';
 import capital from '../assets/capital.png';
 import travel from '../assets/traveltracker.png';
 import simon from '../assets/simon_game.png';
 import uni from '../assets/uni.png';
 import iris from '../assets/iris.jpg';
+import slot from '../assets/slotmachine.jpg';
 import vitta from '../assets/vittacare.png';
 import port from '../assets/port.jpg';
 import { motion } from 'framer-motion';
@@ -67,6 +69,22 @@ const projects = [
     backend: 'Node.js, Express.js, PostgreSQL',
     description: 'A website intended to track visited countries of each individual',
     githubLink: 'https://github.com/chaithanyashaji/FindTheCapital'
+  },
+  {
+    img: secret,
+    title: 'Secret APP',
+    frontend: 'EJS, CSS',
+    backend: 'Node.js, Express.js, PostgreSQL',
+    description: ' Developed a secure app with login and registration features, utilizing OAuth for authentication and bcrypt for password security.',
+    githubLink: 'https://github.com/chaithanyashaji/Secrets_app'
+  },
+  {
+    img: slot,
+    title: 'Slot Machine',
+    frontend: '',
+    backend: 'Python',
+    description: ' A simple text-based slot machine game implemented in Python. The game allows players to deposit money, place bets on multiple lines, and spin the slot machine to try their luck.',
+    githubLink: 'https://github.com/chaithanyashaji/Slot_machine'
   },
   {
     img: vitta,
