@@ -10,7 +10,7 @@ const Header = () => {
           </a>
           <button className='btn btn-lg'>
          <a href='mailto:chaiithanyashaji@gmail.com?subject=Inquiry%20from%20Portfolio'>
-                  collaborate
+                  Hire me
                 </a>
               </button>
         </div>
