@@ -6,6 +6,15 @@ import { fadeIn } from '../variants';
 import image1 from '../assets/portfolioimg.jpg';
 
 const Banner = () => {
+  const onButtonClick = () => {
+    const pdfUrl = "chaithanya_resume.pdf";
+    const link = document.createElement("a");
+    link.href = pdfUrl;
+    link.download = "chaithanya_resume.pdf"; 
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+};
   return (
     <section className='min-h-[85vh] lg:min-h-[78vh] flex items-center' id='home'>
       <div className='container mx-auto'>
@@ -52,11 +61,11 @@ const Banner = () => {
               viewport={{ once: false, amount: 0.7 }} 
               className='flex max-w-max gap-x-6 items-center mb-8 mx-auto lg:mx-0'
             >
-              <a href='https://drive.google.com/file/d/1l3whwSeq7X6iFfJ-XK6hNHKOcb7t7niA/view?usp=drivesdk' download>
-                 <button className='btn btn-lg'>
+             
+                 <button onClick={onButtonClick} className='btn btn-lg'>
                   Resume
                 </button>
-              </a>
+              
 
             </motion.div>
             <motion.div 
