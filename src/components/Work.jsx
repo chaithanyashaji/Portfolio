@@ -5,7 +5,7 @@ import secret from '../assets/secret.png';
 import capital from '../assets/capital.png';
 import travel from '../assets/traveltracker.png';
 import simon from '../assets/simon_game.png';
-import uni from '../assets/uni.png';
+import eon from '../assets/eventON.jpg';
 import iris from '../assets/iris.jpg';
 import slot from '../assets/slotmachine.jpg';
 import vitta from '../assets/vittacare.png';
@@ -15,8 +15,8 @@ import { fadeIn } from '../variants';
 
 const projects = [
   {
-    img: uni,
-    title: 'Uni-Verse',
+    img: eon,
+    title: 'EventON',
     frontend: 'Flutter',
     backend: 'Firebase',
     description: 'A comprehensive app designed to manage and host technical community events, featuring an integrated chatbot for seamless interaction. This mini-project, developed as part of my college coursework, will soon be available on the Play Store.',

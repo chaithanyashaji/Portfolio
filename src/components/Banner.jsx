@@ -7,10 +7,10 @@ import image1 from '../assets/portfolioimg.jpg';
 
 const Banner = () => {
   const onButtonClick = () => {
-    const pdfUrl = "chaithanya_resume.pdf";
+    const pdfUrl = "chaithanyashaji_resume.pdf";
     const link = document.createElement("a");
     link.href = pdfUrl;
-    link.download = "chaithanya_resume.pdf"; 
+    link.download = "chaithanyashaji_resume.pdf"; 
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
