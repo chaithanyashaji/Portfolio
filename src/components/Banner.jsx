@@ -7,7 +7,7 @@ import image1 from '../assets/portfolioimg.jpg';
 
 const Banner = () => {
   const onButtonClick = () => {
-    const pdfUrl = "chaithanyashaji_resume.pdf";
+    const pdfUrl = "chaithanya_resume.pdf";
     const link = document.createElement("a");
     link.href = pdfUrl;
     link.download = "chaithanyashaji_resume.pdf"; 
