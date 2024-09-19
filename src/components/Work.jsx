@@ -20,7 +20,7 @@ const projects = [
     frontend: 'Flutter',
     backend: 'Firebase',
     description: 'A comprehensive app designed to manage and host technical community events, featuring an integrated chatbot for seamless interaction. This mini-project, developed as part of my college coursework, will soon be available on the Play Store.',
-    githubLink: 'https://github.com/chaithanyashaji/UniVerse11'
+    githubLink: 'https://github.com/chaithanyashaji/EventON'
   },
   {
     img: port,
