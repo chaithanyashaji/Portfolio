@@ -10,10 +10,19 @@ import iris from '../assets/iris.jpg';
 import slot from '../assets/slotmachine.jpg';
 import vitta from '../assets/vittacare.png';
 import port from '../assets/port.jpg';
+import math from '../assets/math.png';
 import { motion } from 'framer-motion';
 import { fadeIn } from '../variants';
 
 const projects = [
+  {
+    img: math,
+    title: 'Math Notes(4all)',
+    frontend: 'React,TypeScript',
+    backend: 'Python, Gemini API',
+    description: '•	Responsive tool for drawing math expressions and geometric figures using mouse or touch input, inspired by Apple’s MathNotes.',
+    githubLink: 'https://mathnotes4all.onrender.com/'
+  },
   {
     img: eon,
     title: 'EventON',
