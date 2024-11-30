@@ -11,6 +11,7 @@ import slot from '../assets/slotmachine.jpg';
 import vitta from '../assets/vittacare.png';
 import port from '../assets/port.jpg';
 import math from '../assets/math.png';
+import help from '../assets/help.png';
 import { motion } from 'framer-motion';
 import { fadeIn } from '../variants';
 
@@ -30,6 +31,14 @@ const projects = [
     backend: 'Firebase',
     description: 'A comprehensive app designed to manage and host technical community events, featuring an integrated chatbot for seamless interaction. This mini-project, developed as part of my college coursework, will soon be available on the Play Store.',
     githubLink: 'https://github.com/chaithanyashaji/EventON'
+  },
+  {
+    img: help,
+    title: 'Helpora',
+    frontend: 'Flutter',
+    backend: 'Firebase',
+    description: 'A Flutter and Firebase-based app connecting users with part-time domestic jobs.',
+    githubLink: 'https://github.com/chaithanyashaji/Helpora'
   },
   {
     img: port,
