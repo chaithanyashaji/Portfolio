@@ -11,7 +11,7 @@ import slot from '../assets/slotmachine.jpg';
 import vitta from '../assets/vittacare.png';
 import port from '../assets/port.jpg';
 import math from '../assets/math.png';
-import help from '../assets/help.png';
+import help from '../assets/helpora1.jpg';
 import { motion } from 'framer-motion';
 import { fadeIn } from '../variants';
 
