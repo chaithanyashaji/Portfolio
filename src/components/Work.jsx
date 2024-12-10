@@ -21,8 +21,16 @@ const projects = [
     title: 'Math Notes(4all)',
     frontend: 'React,TypeScript',
     backend: 'Python, Gemini API',
-    description: '•	Responsive tool for drawing math expressions and geometric figures using mouse or touch input, inspired by Apple’s MathNotes.',
+    description: 'Responsive tool for drawing math expressions and geometric figures using mouse or touch input, inspired by Apple’s MathNotes.',
     githubLink: 'https://mathnotes4all.onrender.com/'
+  },
+  {
+    img: math,
+    title: 'E-commerce Store',
+    frontend: 'React,Tailwind CSS',
+    backend: 'Node.js with Express.js,MongoDB',
+    description: 'A Full-Stack Ecommerce Store with payment integration and admin panel.',
+    githubLink: 'https://ecommercestore-iota.vercel.app/'
   },
   {
     img: eon,
