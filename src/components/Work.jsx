@@ -12,6 +12,7 @@ import vitta from '../assets/vittacare.png';
 import port from '../assets/port.jpg';
 import math from '../assets/math.png';
 import help from '../assets/helpora1.jpg';
+import ecommerce from '../assets/ecommerce.png';
 import { motion } from 'framer-motion';
 import { fadeIn } from '../variants';
 
@@ -25,7 +26,7 @@ const projects = [
     githubLink: 'https://mathnotes4all.onrender.com/'
   },
   {
-    img: math,
+    img: ecommerce,
     title: 'E-commerce Store',
     frontend: 'React,Tailwind CSS',
     backend: 'Node.js with Express.js,MongoDB',
