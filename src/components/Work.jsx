@@ -19,7 +19,7 @@ import { fadeIn } from '../variants';
 const projects = [
   {
     img: math,
-    title: 'Math Notes(4all)',
+    title: 'Math Notes New.O',
     frontend: 'React,TypeScript',
     backend: 'Python, Gemini API',
     description: 'Responsive tool for drawing math expressions and geometric figures using mouse or touch input, inspired by Apple’s MathNotes.',
