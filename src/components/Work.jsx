@@ -13,26 +13,28 @@ import port from '../assets/port.jpg';
 import math from '../assets/math.png';
 import help from '../assets/helpora1.jpg';
 import ecommerce from '../assets/ecommerce.png';
+import ekalooms from '../assets/ekalooms.png';
 import { motion } from 'framer-motion';
 import { fadeIn } from '../variants';
 
 const projects = [
   {
+    img: ekalooms,
+    title: 'Ekalooms Website',
+    frontend: 'React,Tailwind CSS',
+    backend: 'Node.js with Express.js,MongoDB',
+    description: 'A comprehensive Full-Stack E-commerce platform designed for the startup Ekalooms, featuring seamless payment integration, a robust admin panel, and a scalable infrastructure to support business growth. Website Link :https://ekalooms.com',
+    githubLink: 'https://ekalooms.com'
+  },
+  {
     img: math,
     title: 'Math Notes New.O',
     frontend: 'React,TypeScript',
     backend: 'Python, Gemini API',
-    description: 'Responsive tool for drawing math expressions and geometric figures using mouse or touch input, inspired by Apple’s MathNotes.',
+    description: 'Responsive tool for drawing math expressions and geometric figures using mouse or touch input, inspired by Apple’s MathNotes. ',
     githubLink: 'https://mathnotes4all.onrender.com/'
   },
-  {
-    img: ecommerce,
-    title: 'E-commerce Store',
-    frontend: 'React,Tailwind CSS',
-    backend: 'Node.js with Express.js,MongoDB',
-    description: 'A Full-Stack Ecommerce Store with payment integration and admin panel.',
-    githubLink: 'https://ecommercestore-iota.vercel.app/'
-  },
+  
   {
     img: eon,
     title: 'EventON',
