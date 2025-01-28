@@ -32,7 +32,7 @@ const projects = [
     frontend: 'React,TypeScript',
     backend: 'Python, Gemini API',
     description: 'Responsive tool for drawing math expressions and geometric figures using mouse or touch input, inspired by Apple’s MathNotes. ',
-    githubLink: 'https://mathnotes4all.onrender.com/'
+    githubLink: 'https://mathnotes-nine.vercel.app'
   },
   
   {
