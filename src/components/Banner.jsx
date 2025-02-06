@@ -10,7 +10,7 @@ const Banner = () => {
     const pdfUrl = "chaithanya_resume.pdf";
     const link = document.createElement("a");
     link.href = pdfUrl;
-    link.download = "chaithanya_resume_jan26.pdf"; 
+    link.download = "chaithanya_resume_feb6.pdf"; 
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
